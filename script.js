@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const feedbackDiv = document.getElementById('form-feedback');
 
   // Add an event listener for the 'submit' event on the form.
-  form.addEventListener('submit', (event) => {
+  form.addEventListener('submit', function (event) {
       // Prevent the default form submission behavior, which would reload the page.
       event.preventDefault();
 
